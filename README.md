@@ -8,7 +8,9 @@ donkeycar项目实践
 软件架构说明
 在Windows下安装donkeycar
 https://conda.io/miniconda.html
+
 https://git-scm.com/download/win
+
 git库:https://gitee.com/bloomlj/donkeycar
 
 
