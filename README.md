@@ -67,6 +67,7 @@ git库:https://gitee.com/bloomlj/donkeycar
 3.  安装Tensorflow-GPU
 
     `conda install tensorflow-gpu==1.13.1`
+
     ·创建工作目录： `donkey createcar --path D:/mycar`  --path表示路径
 
 #### 使用说明
