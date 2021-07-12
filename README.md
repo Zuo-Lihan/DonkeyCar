@@ -27,6 +27,7 @@ git库:https://gitee.com/bloomlj/donkeycar
 
               ·创建你自己的项目目录
 
+
                 ①`cd 你自己期望的目录文件下`
 
                 ②`mkdir projects `    --创建一个项目文件
@@ -35,7 +36,9 @@ git库:https://gitee.com/bloomlj/donkeycar
 
 1.4从gitee上获取最新的donkeycar源码
                                  ·`git clone https://github.com/bloomlj/donkeycar`
+
    进入本地donkeycar文件下
+
                         ·`cd donkeycar`
                         ·`git checkout master` 
 
@@ -47,8 +50,10 @@ git库:https://gitee.com/bloomlj/donkeycar
              conda config --set show_channel_urls yes
 ```
 1.6更新
+
        `conda update -n base -c defaults conda
         conda env remove -n donkey`
+
 （有问题后再详细解决）
 
 2.  创建python Anaconda环境
@@ -60,6 +65,7 @@ git库:https://gitee.com/bloomlj/donkeycar
 ```
 
 3.  安装Tensorflow-GPU
+
     `conda install tensorflow-gpu==1.13.1`
     ·创建工作目录： `donkey createcar --path D:/mycar`  --path表示路径
 
