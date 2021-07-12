@@ -16,7 +16,8 @@ git库:https://gitee.com/bloomlj/donkeycar
 
 #### 安装教程（待补充）
 
-1.  在windows上安装donkeycar
+### 一.在windows上安装donkeycar
+
 
 1.1安装miniconda python
 
@@ -69,6 +70,16 @@ git库:https://gitee.com/bloomlj/donkeycar
     `conda install tensorflow-gpu==1.13.1`
 
     ·创建工作目录： `donkey createcar --path D:/mycar`  --path表示路径
+
+### 二、树莓派上环境配置与安装
+
+2.1
+
+2.2
+
+2.3
+
+
 
 #### 使用说明
 
