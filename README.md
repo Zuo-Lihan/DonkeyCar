@@ -16,9 +16,52 @@ git库:https://gitee.com/bloomlj/donkeycar
 
 #### 安装教程（待补充）
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+1.  在windows上安装donkeycar
+
+1.1安装miniconda python
+
+1.2 安装git
+
+1.3创建项目目录
+              ·从开始菜单启动Anacanda
+
+              ·创建你自己的项目目录
+
+                ①`cd 你自己期望的目录文件下`
+
+                ②`mkdir projects `    --创建一个项目文件
+
+                ③`cd projects`
+
+1.4从gitee上获取最新的donkeycar源码
+                                 ·`git clone https://github.com/bloomlj/donkeycar`
+   进入本地donkeycar文件下
+                        ·`cd donkeycar`
+                        ·`git checkout master` 
+
+1.5更换国内源
+            
+```
+             conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free
+             conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main
+             conda config --set show_channel_urls yes
+```
+1.6更新
+       `conda update -n base -c defaults conda
+        conda env remove -n donkey`
+（有问题后再详细解决）
+
+2.  创建python Anaconda环境
+    
+```
+    conda env create -f install\envs\windows.yml  --这里windows.yml文件路径可能需要修改
+    conda activate donkey
+    pip install -e .[pc]
+```
+
+3.  安装Tensorflow-GPU
+    `conda install tensorflow-gpu==1.13.1`
+    ·创建工作目录： `donkey createcar --path D:/mycar`  --path表示路径
 
 #### 使用说明
 
