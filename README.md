@@ -133,12 +133,3 @@ return f(*args, **kwds)
      王娇扬：软件安装及环境搭建、小车线路连接、donkey car的数据采集、训练及自动驾驶实现
 
      李默涵：软件安装及环境搭建、小车硬件安装、donkey car的数据采集、训练及自动驾驶实现
-
-## 特技
-
-    使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md。
-    Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-    你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-    [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-    Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-    Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
